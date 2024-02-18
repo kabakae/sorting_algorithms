@@ -13,7 +13,7 @@ void print_array(const int *array, size_t size)
 
 	i = 0;
 	while (array && i < size) /* starts a loop that continues as long as
-*array is not 'NULL' and i is less than 'size'. The loop is used to print
+* both array is not 'NULL' and i is less than 'size'. The loop is used to print
 *elements of the array
 */
 	{
