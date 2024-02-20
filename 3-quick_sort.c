@@ -56,7 +56,7 @@ int lomuto_partition(int *array, size_t size, int left, int right)
 		swap_ints(array + above, pivot);
 		print_array(array, size);
 	}
-	return (0);
+	return (above);
 }
 /**
  * lomuto_sort - ........
