@@ -24,7 +24,7 @@ void print_array(const int *array, size_t size)
 *array[i] expression accesses the current element of the array using the loop
 *counter 'i'
 */
-		i++;
+		++i;
 	}
 	printf("\n");
 }
