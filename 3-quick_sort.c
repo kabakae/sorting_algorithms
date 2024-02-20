@@ -23,7 +23,7 @@ void swap_ints(int *a, int *b)
  * @size : size of the array
  * @left : starting index of the subset to order.
  * @right :ending index of subset to oder.
- * Return : The final partition index
+ * Return: The final partition index
  */
 int lomuto_partition(int *array, size_t size, int left, int right)
 {
